@@ -1,0 +1,1 @@
+../../../../../Classes/TRVoice2Word/iflyMSC.framework/Headers/IFlyRecognizerView.h

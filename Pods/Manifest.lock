@@ -1,0 +1,14 @@
+PODS:
+  - TRVoice2Word (0.0.1)
+
+DEPENDENCIES:
+  - TRVoice2Word (from `./`)
+
+EXTERNAL SOURCES:
+  TRVoice2Word:
+    :path: ./
+
+SPEC CHECKSUMS:
+  TRVoice2Word: bddea323e77700622f8ee9c3038ea8e704c94477
+
+COCOAPODS: 0.38.2

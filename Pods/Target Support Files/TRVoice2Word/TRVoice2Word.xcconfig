@@ -1,0 +1,2 @@
+TRVOICE_WORD_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../Classes/TRVoice2Word"
+TRVOICE_WORD_OTHER_LDFLAGS = -l"z" -framework "AddressBook" -framework "CoreTelephony" -framework "SystemConfiguration" -framework "iflyMSC"

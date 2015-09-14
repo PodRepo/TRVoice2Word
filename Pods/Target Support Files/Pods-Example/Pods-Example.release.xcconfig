@@ -1,0 +1,6 @@
+FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../Classes/TRVoice2Word"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TRVoice2Word" "${PODS_ROOT}/Headers/Public/TRVoice2Word/iflyMSC"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/TRVoice2Word" -isystem "${PODS_ROOT}/Headers/Public/TRVoice2Word/iflyMSC"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"TRVoice2Word" -l"z" -framework "AddressBook" -framework "CoreTelephony" -framework "SystemConfiguration" -framework "iflyMSC"
+PODS_ROOT = ${SRCROOT}/Pods
